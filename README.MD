@@ -1,3 +1,5 @@
+# WARNING ! least_time only working nginx plus
+
 ### Env variables
 ```bash
 # WEB
