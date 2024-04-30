@@ -16,6 +16,7 @@ echo 'PostgreSQL started'
 cd /app/backend
 
 echo 'Running migrations...'
+python manage.py makemigrations
 python manage.py migrate
 
 echo 'Collecting static files...'
